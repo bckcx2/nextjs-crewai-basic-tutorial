@@ -43,7 +43,7 @@ export const useCrewJob = () => {
           status: string;
           result: { positions: PositionInfo[] };
           events: EventType[];
-        }>(`http://localhost:3001/api/crew/${currentJobId}`);
+        }>(`https://nextjs-crewai-basic-tutorial.onrender.com/api/crew/${currentJobId}`);
         const { status, events: fetchedEvents, result } = response.data;
 
         console.log("status update", response.data);
