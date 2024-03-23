@@ -1,5 +1,6 @@
 import React from "react";
-import { Event } from "/types";
+//import { Event } from '../types';
+import { Event } from "@/types";
 import { EventType } from "@/hooks/useCrewJob";
 
 // This component will receive props to update events.
