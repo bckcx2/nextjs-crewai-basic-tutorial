@@ -91,7 +91,8 @@ export const useCrewJob = () => {
 
     try {
       const response = await axios.post<{ job_id: string }>(
-        "http://localhost:3001/api/crew",
+        //"http://localhost:3001/api/crew",
+        "https://nextjs-crewai-basic-tutorial.onrender.com/api/crew",
         {
           companies,
           positions,
